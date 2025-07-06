@@ -139,3 +139,28 @@ __Run all cells:__ Execute the cells sequentially to preprocess data, train the 
 * __Anomaly Detection:__ Consider framing the problem as an anomaly detection task using models like Isolation Forest or Autoencoders, especially if the fraud patterns are highly diverse.
 
 * __Real-time Inference:__ Develop a simple API or web application (e.g., using Flask or Streamlit) to deploy the model for real-time fraud prediction.
+
+# Accuracy scores visualisation and their metrics:
+
+__Accuracy plot for Train and Test__:
+
+
+![model_accuracy](https://github.com/user-attachments/assets/41d185a0-099e-4d09-bf29-2862e3068213)
+
+
+
+__Loss Funtion plot for Train and Test__:
+
+
+![model_loss](https://github.com/user-attachments/assets/7b745394-c8a7-44e0-aec4-0d9f356fe7d4)
+
+
+`Precision: 0.9971`
+
+`Recall (Sensitivity): 0.9967`
+
+`F1-Score: 0.9969`
+
+`AUC-ROC: 0.989`
+
+`Average Precision (PR-AUC): 0.9997`
