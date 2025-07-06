@@ -15,7 +15,7 @@ This often results in:
 To counteract this, __SMOTE__ is employed to synthesize new, realistic samples for the minority class, thereby balancing the dataset for effective model training.
 
 ## Dataset
-* The dataset used in this project can be found here: https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023 __OR__ in th repo itself.
+* The dataset used in this project can be found here: https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023
 * __Features:__ The dataset contains numerical features `V1` through `V28`, which are the result of a PCA transformation to protect user identities and sensitive information. It also includes an `Amount` feature representing the transaction amount.
 * __Target Variable:__ The `Class` column indicates whether a transaction is __fraudulent (1)__ or __legitimate (0)__.
 * __Imbalance:__ This dataset is highly imbalanced, with a very small percentage of fraudulent transactions.
